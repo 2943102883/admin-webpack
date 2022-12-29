@@ -1,0 +1,1 @@
+export { default as TgAskLeave } from './askLeave.vue'

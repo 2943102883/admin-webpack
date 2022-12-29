@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <title>端校易管理平台</title>
+    <style>
+      .vaa-home {
+        position: absolute;
+        z-index: 10000;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        user-select: none;
+        color: #736477;
+        background-color: #f2f4fc;
+      }
+      .vaa-home .loading {
+        position: relative;
+        display: inline-block;
+        width: 1.6em;
+        height: 1.6em;
+        color: inherit;
+        vertical-align: middle;
+        pointer-events: none;
+        transform: scale(3);
+      }
+
+      @keyframes loading {
+        0%,
+        100% {
+          box-shadow: -0.5em 0 0 transparent;
+          background-color: currentColor;
+        }
+        50% {
+          box-shadow: -0.5em 0 0 currentColor;
+          background-color: transparent;
+        }
+      }
+      .vaa-home .text {
+        font-size: 24px;
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <strong>
+        We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to continue.
+      </strong>
+    </noscript>
+    <div id="app">
+      <div class="vaa-home">
+        <div class="loading">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="100%"
+            height="100%"
+            viewBox="0 0 189.481 129.313"
+          >
+            <g id="dh" transform="translate(-1.164 0.001)">
+              <g id="组_53" data-name="组 53" transform="translate(-0.001 0)">
+                <path
+                  id="路径_31"
+                  data-name="路径 31"
+                  d="M143.438,0H62.882l-7.4,10.328,65.712.007c23.5,0,29.5,18.56,22.926,27.48l-10.6,14.4H97.759c-6.793,0-4.742-2.789-3.606-4.323,2.238-3.032,5.91-8.182,8.105-11.159,2.161-2.945,2.217-4.611-2.206-4.611h-60.2L5.66,79.837c-14.206,19.82-.038,47.4,24.345,47.4h72.277A68.294,68.294,0,0,0,157.519,99.1l22.365-33.524C197.909,37.541,185.859,0,143.438,0M81.426,86.75H26.648a5.023,5.023,0,0,1-4.046-8l26.345-35.8H76.316c4.421,0,4.366,1.676,2.2,4.61L70.36,58.674C69.224,60.206,67.173,63,73.966,63h52.308C121.83,69.106,107.363,86.75,81.426,86.75"
+                  transform="translate(2.668 0)"
+                  fill="#e7eaf7"
+                />
+                <path
+                  id="路径_32"
+                  data-name="路径 32"
+                  d="M144.583,1.924h-79.7L57.559,12.142l65.014.007c23.25,0,29.185,18.362,22.683,27.188L134.772,53.586H99.39c-6.721,0-4.692-2.76-3.568-4.277,2.215-3,5.848-8.1,8.019-11.041,2.138-2.913,2.193-4.561-2.182-4.561H42.1L8.267,80.915c-14.054,19.609-.039,46.9,24.086,46.9h71.511a67.571,67.571,0,0,0,54.651-27.834l22.127-33.168C198.476,39.067,186.553,1.924,144.583,1.924ZM83.23,87.754h-54.2a4.97,4.97,0,0,1-4-7.916L51.1,44.418H78.173c4.375,0,4.321,1.658,2.183,4.56l-8.074,11c-1.124,1.517-3.153,4.277,3.567,4.277H127.6C123.2,70.3,108.891,87.754,83.23,87.754Z"
+                  transform="translate(0 0)"
+                  fill="none"
+                  stroke="#0b2ae0"
+                  stroke-miterlimit="10"
+                  stroke-width="3"
+                />
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div class="text">端州通欢迎您</div>
+      </div>
+    </div>
+
+    <!-- built files will be auto injected -->
+  </body>
+</html>
